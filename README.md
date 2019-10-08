@@ -1,8 +1,14 @@
 # Pelee: A Real-Time Object Detection System on Mobile Devices - PyTorch
-A [PyTorch](http://pytorch.org/) implementation of [Pelee: A Real-Time Object Detection System on Mobile Devices](https://arxiv.org/abs/1804.06882) The official and original Caffe code can be found [here](https://github.com/Robert-JunWang/Pelee).
+Repository: [https://github.com/yxlijun/Pelee.Pytorch](https://github.com/yxlijun/Pelee.Pytorch) by [Jun Li](https://github.com/yxlijun)<br/>
+You can run object detection in video using webcam
+## Paper
+Pelee: A Real-Time Object Detection System on Mobile Devices [NeurIPS 2018](https://arxiv.org/abs/1804.06882 )<br/>
+Robert J. Wang, Xiang Li, Charles X. Ling <br/>
+University of Western Ontario <br/>
+The official and original Caffe code can be found [here](https://github.com/Robert-JunWang/Pelee).
 
 ## Description  
-I train Pelee with pytorch and the result is better than the original paper result,the pretrained model can be downloaded in [peleenet.pth](https://drive.google.com/open?id=1hxQz7NO-cf-Pa9rg5A-G1ruwpSDOyu7a).
+the pretrained model can be downloaded in [peleenet.pth](https://drive.google.com/open?id=1hxQz7NO-cf-Pa9rg5A-G1ruwpSDOyu7a).
 
 ## MAP in VOC2007
 
@@ -11,7 +17,7 @@ I train Pelee with pytorch and the result is better than the original paper resu
 | SSD300 | 77.2 | 81.2|
 | SSD+MobileNet | 68 | 72.7|
 | Original Pelee | 70.9| 76.4|
-| Ours Pelee | [71.76](https://drive.google.com/open?id=16HparGAVhxTDByi5RylYCkxLZYducK9j) |  ---  |
+| pytorch-Pelee | [71.76](https://drive.google.com/open?id=16HparGAVhxTDByi5RylYCkxLZYducK9j) |  ---  |
 
 ## Preparation
 **the supported version is pytorch-0.4.1 or pytorch-1.0**  
