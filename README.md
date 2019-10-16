@@ -28,7 +28,7 @@ the pretrained model can be downloaded in [peleenet.pth](https://drive.google.co
 
 - Clone this repository.
 ```Shell
-git clone https://github.com/yxlijun/Pelee.Pytorch
+git clone https://github.com/jinyoungHan/pytorch-Pelee.git
 ```
 - Compile the nms and coco tools:
 
